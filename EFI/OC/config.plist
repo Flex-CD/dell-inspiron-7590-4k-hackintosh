@@ -614,7 +614,7 @@
 				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
-				<string>蓝牙驱动</string>
+				<string>Intel网卡蓝牙驱动</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -632,7 +632,7 @@
 				<key>BundlePath</key>
 				<string>IntelBluetoothInjector.kext</string>
 				<key>Comment</key>
-				<string>蓝牙驱动 - 开关修复</string>
+				<string>Intel网卡蓝牙驱动 - 开关修复</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -830,7 +830,7 @@
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>博通网卡驱动</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -848,9 +848,9 @@
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>博通网卡驱动</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -866,7 +866,7 @@
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>博通网卡驱动</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -884,7 +884,7 @@
 				<key>BundlePath</key>
 				<string>BrcmBluetoothInjector.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>博通网卡驱动</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -902,7 +902,7 @@
 				<key>BundlePath</key>
 				<string>BrcmFirmwareData.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>博通网卡驱动</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -920,7 +920,7 @@
 				<key>BundlePath</key>
 				<string>BrcmPatchRAM3.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>博通网卡驱动</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
