@@ -26,7 +26,7 @@
 **添置/替换配置**
 
 - Gloway DDR4 2666Mhz 16 GB ：组成双通道 32G 内存，直接插于另一个内存插槽，未出现兼容性问题
-- COMFAST CF-812AC：usb 无线网卡，2.4GHz 400Mbps + 5G 867MBps（以前玩黑苹果剩下的，鉴于 Intel 网卡不稳定，也不想买博通网卡，暂时使用）
+- DW1820A：替换 Intel Wireless-AC 9560 为 DW1820A
 
 ## 完成度
 
@@ -38,13 +38,37 @@
 - USB 已定制，并且为各个端口添加位置注释，可在 Hackintool - USB 中看到端口的具体位置
 - 原生电源管理 & 电池状态显示
 - 手动睡眠、自动睡眠、盒盖睡眠均正常
+- DW1820A WiFi、蓝牙完美，随航、接力、隔空投送完美，蓝牙发送文件正常，若要通过蓝牙接收非苹果设备的文件，请在 mac 打开【设置-共享-蓝牙共享】
 
 ### 工作不完美的
 
+- 雷电 3 接口充电正常，雷电 3 转扩展坞的 usb2.0、usb3.0、hdmi、千兆网口均正常，但扩展坞的 Type-C 口无法充电；是否支持完整雷电三功能暂不可知
+- HDMI 可使用，但系统无法识别其热插拔，在【设置-显示器】中按下【options】（window 键）后，点击【检查显示器】即可。（PS：拔和插后，都需要进行此操作）
 - 声卡 Realtek ALC295：内置麦克风未驱动，其他正常
-- Intel Wireless-AC 9560：蓝牙驱动可输出音乐，但蓝牙麦克风无输入， Intel 网卡未放置驱动，有需要的可以参考此项目：[OpenIntelWireless](https://openintelwireless.github.io)
-- HDMI 睡醒后无法识别，接口热拔插无法识别，可在【设置-显示器】中按下【options】（window 键）后，点击【检查显示器】即可。（PS：拔和插后，都需要进行此操作）
-- 雷电 3 接口直插充电正常识别，type-c 转扩展坞的 usb2.0、usb3.0、hdmi、千兆网口均正常，是否支持完整雷电三功能暂不可知
+
+### 不可工作的
+
+- 显卡：这辈子应该都不会支持了，已禁用
+- 指纹：同上，已禁用
+
+## 使用配置
+
+### BIOS
+
+开机按 F2 之后，进入 BIOS，本人 Bios 版本：1.5.1，操作如下：
+
+- System Configuration - SATA Operation：选择 AHCI
+- System Configuration - Thunderbolt Auto Switch：关闭 Auto Switch，点击 Apply 后，选择 BIOS Assist Enumeration（关闭 Auto Switch 后若不进行 Apply 就无法选择）
+- Secure Boot - Secure Boot Enable：关闭 Secure Boot Enable 勾选
+- Intel Software Guard Extensions - Intel SGX Enable：选择 Disabled
+- Power Management - Lid Switch：关闭 Power On Lid Open 勾选
+- Virtualization Support - VT for Direct I/O：关闭 Enable VT for Direct I/O 勾选
+
+### EFI
+
+1. 下载此仓库
+2. 此仓库默认使用 DW1820A 驱动 WiFi 与蓝牙，若要使用 Intel 的网卡，请在 Kernel 中关闭【AirportBrcmFixup.kext 相关三项、BrcmBluetoothInjector.kext 相关三项】，开启【IntelBluetoothFirmware.kext、IntelBluetoothInjector.kext】，则蓝牙驱动可输出音乐，但蓝牙麦克风无输入， Intel 网卡未放置驱动，有需要的可以参考此项目：[OpenIntelWireless](https://openintelwireless.github.io)
+3. 更新 SMBIOS 的数据
 
 ## 参考文档
 
