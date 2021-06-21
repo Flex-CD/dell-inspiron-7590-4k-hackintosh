@@ -36,6 +36,7 @@
 - 显卡正常驱动，内屏自动开启 HIDPI，如有需要可以自行下载 4K 屏幕的校色文件：【[夏普 SHP14C7](http://oss.pm-z.tech/temp_files/SHP14C7_ICC.zip)】【[友达 AUO41EB](http://oss.pm-z.tech/temp_files/AUO41EB_ICC.zip)】（参考于[Pinming 的 Git 仓库](https://github.com/Pinming/Dell-Inspiron-7590-Hackintosh-Opencore)）
 - 键盘、触控板驱动正常，options、command 键根据 mac 键盘映射，亮度快捷键正常，fn+prtsc 映射为 F13，可以在设置-键盘-快捷键-截图中设为 F13
 - USB 已定制，并且为各个端口添加位置注释，可在 Hackintool - USB 中看到端口的具体位置
+- 读卡器不会在【系统报告-读卡器】中显示，但可正常使用，插入后可在【系统报告-USB】中查看，速率为 480 Mb/秒
 - 原生电源管理 & 电池状态显示
 - 手动睡眠、自动睡眠、盒盖睡眠均正常
 - DW1820A WiFi、蓝牙完美，随航、接力、隔空投送完美，蓝牙发送文件正常，若要通过蓝牙接收非苹果设备的文件，请在 mac 打开【设置-共享-蓝牙共享】
@@ -67,8 +68,12 @@
 ### EFI
 
 1. 下载此仓库
-2. 此仓库默认使用 DW1820A 驱动 WiFi 与蓝牙，若要使用 Intel 的网卡，请在 Kernel 中关闭【AirportBrcmFixup.kext 相关三项、BrcmBluetoothInjector.kext 相关三项】，开启【IntelBluetoothFirmware.kext、IntelBluetoothInjector.kext】，则蓝牙驱动可输出音乐，但蓝牙麦克风无输入， Intel 网卡未放置驱动，有需要的可以参考此项目：[OpenIntelWireless](https://openintelwireless.github.io)
-3. 更新 SMBIOS 的数据
+2. 更新 SMBIOS 的数据
+3. 此仓库默认使用 DW1820A 网卡，若使用 Intel 网卡，请在 Kernel 中关闭【AirportBrcmFixup.kext 三项驱动、BrcmBluetoothInjector.kext 三项驱动】，开启【itlwm.kext、IntelBluetoothFirmware.kext 两项驱动】，蓝牙设备的麦克风无输入，WiFi 使用请参考此文档：[OpenIntelWireless](https://openintelwireless.github.io)
+
+**其他**
+
+[当前驱动版本记录表 & 感谢开发人员/团队](DOC/KextsVersion.md)
 
 ## 参考文档
 
