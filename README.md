@@ -68,7 +68,7 @@
 ### EFI
 
 1. 下载此仓库
-2. 更新 SMBIOS 的数据
+2. 更新三码
 3. 此仓库默认使用 DW1820A 网卡，若使用 Intel 网卡，请在 Kernel 中关闭【AirportBrcmFixup.kext 三项驱动、BrcmBluetoothInjector.kext 三项驱动】，开启【itlwm.kext、IntelBluetoothFirmware.kext 两项驱动】，蓝牙设备的麦克风无输入，WiFi 使用请参考此文档：[OpenIntelWireless](https://openintelwireless.github.io)
 
 **其他**
