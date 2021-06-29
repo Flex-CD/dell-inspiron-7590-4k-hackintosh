@@ -22,7 +22,7 @@
 
 ## 高级配置
 
-首先声明，修改硬件有风险，请谨慎操作，请确保！
+首先声明，修改硬件有风险，**请谨慎操作，请谨慎操作，请谨慎操作**！
 
 勾选 config - Misc - Tools 中的 modGRUBShell.efi 和 VerifyMsrE2.efi
 
