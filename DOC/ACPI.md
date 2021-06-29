@@ -14,7 +14,6 @@
 | ------------------------ | ------------------------------ |
 | SSDT-ALS0.aml            | 仿冒环境光传感器               |
 | SSDT-AWAC.aml            | 禁用 AWAC                      |
-| SSDT-dGPU-Off.aml        | 禁用独显                       |
 | SSDT-OCWork-dell.aml     | 戴尔特定补丁                   |
 | SSDT-PLUG.aml            | CPU 节能                       |
 | SSDT-PMC.aml             | 修复 NVRAM                     |
