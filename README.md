@@ -54,18 +54,7 @@
 
 ## 使用配置
 
-### BIOS
-
-开机按 F2 之后，进入 BIOS，本人 Bios 版本：1.5.1，操作如下：
-
-- System Configuration - SATA Operation：选择 AHCI
-- System Configuration - Thunderbolt Auto Switch：关闭 Auto Switch，点击 Apply 后，选择 BIOS Assist Enumeration（关闭 Auto Switch 后若不进行 Apply 就无法选择）
-- Secure Boot - Secure Boot Enable：关闭 Secure Boot Enable 勾选
-- Intel Software Guard Extensions - Intel SGX Enable：选择 Disabled
-- Power Management - Lid Switch：关闭 Power On Lid Open 勾选
-- Virtualization Support - VT for Direct I/O：关闭 Enable VT for Direct I/O 勾选
-
-### EFI
+请遵循此文档进行 bios 设置[Bios 设置](DOC/Bios.md)，然后进行如下操作：
 
 1. 下载此仓库
 2. 更新三码
