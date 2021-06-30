@@ -16,7 +16,6 @@
 | SSDT-AWAC.aml            | 禁用 AWAC                      |
 | SSDT-OCWork-dell.aml     | 戴尔特定补丁                   |
 | SSDT-PLUG.aml            | CPU 节能                       |
-| SSDT-PMC.aml             | 修复 NVRAM                     |
 | SSDT-PNLFCFL.aml         | 修复背光                       |
 | SSDT-RMCF-PS2Map.aml     | 键盘按键映射和亮度快捷键修复   |
 | SSDT-SBUS-MCHC.aml       | SBUS 补丁                      |

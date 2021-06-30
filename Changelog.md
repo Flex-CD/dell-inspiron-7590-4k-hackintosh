@@ -1,5 +1,9 @@
 # 更新记录
 
+## 2021-06-30
+
+- 参考 [OpenCore Docs](https://dortania.github.io/OpenCore-Install-Guide) 精简了一些配置
+
 ## 2021-06-29
 
 - 新增 [Bios 设置](DOC/Bios.md) 文档，建议解锁 CFG Lock 和禁用独显

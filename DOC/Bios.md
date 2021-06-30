@@ -30,11 +30,11 @@
 
 ### 内存地址
 
-| 名称            | 内存地址 | 设置值 | 说明                                                                                                                                                                                                     |
-| --------------- | -------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| CFG Lock        | 0x6F0    | 0x0    | 解锁 CFG Lock，不想解锁请勾选 Kernel - Quirks - AppleXcpmCfgLock                                                                                                                                         |
-| Primary Display | 0xA45    | 0x0    | 禁用独显，如果不设置，请添加 disable-external-gpu 到核显设置或参考[此文档禁用独显](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/laptop-disable.html)，建议修改，这样也不会有睡眠的问题了 |
-| DVMT            | 0xA13    | 0x2    | 设置 DVMT 为 64M，默认好像就是 0x2                                                                                                                                                                       |
+| 名称            | 内存地址 | 设置值 | 说明                                                                                                                                                             |
+| --------------- | -------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CFG Lock        | 0x6F0    | 0x0    | 解锁 CFG Lock，不想设置请勾选 Kernel - Quirks - AppleXcpmCfgLock                                                                                                 |
+| Primary Display | 0xA45    | 0x0    | 禁用独显，不想设置请添加 disable-external-gpu 到核显设置或参考[此文档禁用独显](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/laptop-disable.html) |
+| DVMT            | 0xA13    | 0x2    | 设置 DVMT 为 64M，默认好像就是 0x2                                                                                                                               |
 
 ### 命令
 
