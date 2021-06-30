@@ -6,7 +6,7 @@
 
 ## 2021-06-29
 
-- 新增 [Bios 设置](DOC/Bios.md) 文档，建议解锁 CFG Lock 和禁用独显
+- 新增 [BIOS 设置](DOC/BIOS.md) 文档，建议解锁 CFG Lock 和禁用独显
 - 新增 [ACPI](DOC/ACPI.md) 文档
 - 依据修改，更新配置项，让配置更简洁
 
