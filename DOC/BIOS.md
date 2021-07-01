@@ -6,19 +6,18 @@
 
 开机按 F2 之后，进入 BIOS，操作如下：
 
-| 路径                                                         | 操作                                                                                                          |
-| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| System Configuration - SATA Operation                        | 选择 AHCI                                                                                                     |
-| System Configuration - Thunderbolt Adapter Configuration     | 选择 No Security                                                                                              |
-| System Configuration - Thunderbolt Auto Switch               | 关闭 Auto Switch，点击 Apply 后，选择 BIOS Assist Enumeration（关闭 Auto Switch 后若不进行 Apply 就无法选择） |
-| System Configuration - Fingerprint Reader                    | 取消所有勾选，如果你用 window 需要用到指纹，可以保留                                                          |
-| Security - PTT Security                                      | 取消勾选 PTT On                                                                                               |
-| Secure Boot - Secure Boot Enable                             | 关闭 Secure Boot Enable 勾选                                                                                  |
-| Intel Software Guard Extensions - Intel SGX Enable           | 选择 Disabled                                                                                                 |
-| Power Management - Lid Switch                                | 关闭 Power On Lid Open 勾选                                                                                   |
-| Virtualization Support - VT for Direct I/O                   | 关闭 Enable VT for Direct I/O 勾选                                                                            |
-| SupportAssist System Resolution - Auto OS Recovery Threshold | 选择 OFF                                                                                                      |
-| SupportAssist System Resolution - SupportAssist OS Recovery  | 取消勾选                                                                                                      |
+| 路径                                                         | 操作                                                 |
+| ------------------------------------------------------------ | ---------------------------------------------------- |
+| System Configuration - SATA Operation                        | 选择 AHCI                                            |
+| System Configuration - Thunderbolt Adapter Configuration     | 选择 No Security                                     |
+| System Configuration - Fingerprint Reader                    | 取消所有勾选，如果你用 window 需要用到指纹，可以保留 |
+| Security - PTT Security                                      | 取消勾选 PTT On                                      |
+| Secure Boot - Secure Boot Enable                             | 关闭 Secure Boot Enable 勾选                         |
+| Intel Software Guard Extensions - Intel SGX Enable           | 选择 Disabled                                        |
+| Power Management - Lid Switch                                | 关闭 Power On Lid Open 勾选                          |
+| Virtualization Support - VT for Direct I/O                   | 关闭 Enable VT for Direct I/O 勾选                   |
+| SupportAssist System Resolution - Auto OS Recovery Threshold | 选择 OFF                                             |
+| SupportAssist System Resolution - SupportAssist OS Recovery  | 取消勾选                                             |
 
 ## 高级配置
 
@@ -92,7 +91,7 @@
 
 这个也是一个都知道的配置了，mac 需要使用 RTC 时钟。
 
-因为默认就是 Legacy RTC，所以我删除了 SSDT-AWAC.aml，如果你的不是并且不想改 bios，可以[参考此文档](https://dortania.github.io/Getting-Started-With-ACPI/Universal/awac.html)
+因为默认就是 Legacy RTC，所以我删除了 SSDT-AWAC.aml，如果你的不是并且不想改 BIOS，可以[参考此文档](https://dortania.github.io/Getting-Started-With-ACPI/Universal/awac.html)
 
 - 配置名称：System Time and Alarm Source
 - 内存地址: 0x582
