@@ -34,7 +34,7 @@
 
 - CPU 睿频、变频正常，跑分测试参考【[CPU 跑分测试](DOC/CPU.md)】
 - 显卡正常驱动，内屏自动开启 HIDPI，如有需要可以自行下载 4K 屏幕的校色文件：【[夏普 SHP14C7](http://oss.pm-z.tech/temp_files/SHP14C7_ICC.zip)】【[友达 AUO41EB](http://oss.pm-z.tech/temp_files/AUO41EB_ICC.zip)】（参考于[Pinming 的 Git 仓库](https://github.com/Pinming/Dell-Inspiron-7590-Hackintosh-Opencore)）
-- 键盘、触控板驱动正常，options、command 键根据 mac 键盘映射，亮度快捷键正常，fn+prtsc 映射为 F13，可以在设置-键盘-快捷键-截图中设为 F13
+- 键盘、触控板驱动正常，options、command 键根据 mac 键盘映射，亮度快捷键正常，fn+prtsc 映射为 F13，可以在设置-键盘-快捷键-截图中设为 F13，具体可参考[键盘说明](DOC/Keyboard.md)
 - USB 已定制，并且为各个端口添加位置注释，可在 Hackintool - USB 中看到端口的具体位置
 - 读卡器不会在【系统报告-读卡器】中显示，但可正常使用，插入后可在【系统报告-USB】中查看，速率为 480 Mb/秒
 - 原生电源管理 & 电池状态显示
@@ -44,7 +44,7 @@
 ### 工作不完美的
 
 - 雷电 3 接口充电正常，雷电 3 转扩展坞的 usb2.0、usb3.0、hdmi、千兆网口均正常，但扩展坞的 Type-C 口无法充电；是否支持完整雷电三功能暂不可知
-- HDMI 可使用，但系统无法识别其热插拔，在【设置-显示器】中按下【options】（window 键）后，点击【检查显示器】即可。（PS：拔和插后，都需要进行此操作）
+- HDMI 可使用，但系统无法识别其热插拔，在【设置-显示器】中按下【options】（window 键）后，点击【检查显示器】即可（PS：拔和插后，都需要进行此操作）
 - 声卡 Realtek ALC295：内置麦克风未驱动，其他正常
 
 ### 不可工作的
