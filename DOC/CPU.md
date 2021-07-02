@@ -46,6 +46,14 @@
 
 <img width="700" src="https://user-images.githubusercontent.com/45085199/121455120-88308e80-c9d6-11eb-8476-909724174a5c.png">
 
+**睡眠时**
+
+![睡眠时](https://user-images.githubusercontent.com/45085199/124250041-0d7f0d00-db57-11eb-8d59-1986ecd0a6d9.jpg)
+
+**工作时**
+
+![日常工作](https://user-images.githubusercontent.com/45085199/124250115-2091dd00-db57-11eb-9f14-920ddf10a2b4.jpg)
+
 ### 总结
 
 个人感觉，同等 cpu 下，白果黑果的单核性能差异不多，多核性能白果要好出 10% 左右，可能受限于散热和配置，但基本日常肯定时满足了
