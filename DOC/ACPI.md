@@ -39,5 +39,5 @@
 
 ## 感谢开发人员/团队
 
-- [athlonreg](https://github.com/athlonreg) 提供了几乎全部的补丁配置和教程
+- [daliansky](https://github.com/daliansky) 提供了几乎全部的补丁配置和教程
 - [acidanthera](https://github.com/acidanthera) 提供了详细的配置文档
