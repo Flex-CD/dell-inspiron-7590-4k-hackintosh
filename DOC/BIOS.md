@@ -99,3 +99,12 @@
   - 0x0: ACPI Time and Alarm Device
   - 0x1: Legacy RTC（默认值）
 - 执行命令: setup_var_3 0x582 0x1
+
+### 其他官方推荐项
+
+这是官方推荐的，设不设置都可以：
+
+| 配置              | 内存地址 | 设置值 |
+| ----------------- | -------- | ------ |
+| Serial/COM Port   | 0x1532   | 0x0    |
+| Above 4G decoding | 0xA18    | 0x1    |
