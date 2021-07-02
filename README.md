@@ -62,7 +62,7 @@
 
 **其他**
 
-- [ACPI 配置记录表 & 感谢开发人员/团队](DOC/SSDT.md)
+- [ACPI 配置记录表 & 感谢开发人员/团队](DOC/ACPI.md)
 - [驱动版本记录表 & 感谢开发人员/团队](DOC/KextsVersion.md)
 
 ## 参考文档

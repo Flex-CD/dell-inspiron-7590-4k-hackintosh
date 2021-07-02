@@ -13,13 +13,13 @@
 | 名称                     | 说明                           |
 | ------------------------ | ------------------------------ |
 | SSDT-ALS0.aml            | 仿冒环境光传感器               |
-| SSDT-AWAC.aml            | 禁用 AWAC                      |
 | SSDT-OCWork-dell.aml     | 戴尔特定补丁                   |
 | SSDT-PLUG.aml            | CPU 节能                       |
 | SSDT-PNLFCFL.aml         | 修复背光                       |
 | SSDT-RMCF-PS2Map.aml     | 键盘按键映射和亮度快捷键修复   |
 | SSDT-SBUS-MCHC.aml       | SBUS 补丁                      |
 | SSDT-TPDX.aml            | 触控板启用 GPIO 中断模式       |
+| SSDT-USBX.aml            | USB 电源修复                   |
 | SSDT-LIDpatch.aml        | 盖子状态补丁                   |
 | SSDT-EXT3-WakeScreen.aml | 修复唤醒后需按任意键亮屏的问题 |
 | SSDT-PTSWAKTTS.aml       | 综合补丁架构                   |
