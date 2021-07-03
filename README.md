@@ -2,6 +2,7 @@
 
 适用版本：
 
+- [macOS 12.0 (21A5248p)，CPU 暂时无法完全驱动，简单体验一下吧](https://github.com/toulanren/dell-inspiron-7590-4k-hackintosh/tree/monterey)
 - macOS 11.4 (20F71)
 - macOS 10.15.7 (19H1217)，本人长期使用的版本
 
