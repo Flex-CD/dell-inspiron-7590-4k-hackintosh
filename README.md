@@ -1,5 +1,7 @@
 # 戴尔灵越 7590 4K 屏黑苹果 OC 引导
 
+> 今年新款 mac 太香了。。。所以入了白果，此仓库将不再维护了。
+
 适用版本：
 
 - [macOS 12.0 (21A5248p)，CPU 暂时无法完全驱动，简单体验一下吧](https://github.com/toulanren/dell-inspiron-7590-4k-hackintosh/tree/monterey)
